@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headercontainer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 500px;
+    padding: 10px;
+
+}
+.headerbody {
+    width: 70%;
+    margin: auto;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.navlist{
+    list-style-type: none;
+}
+.navlist li{
+    display: inline-block;
+    margin: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.navbrandname{
+    font-size: 24px;
+    margin: 10px;
+    
+}
+
+.herodesign{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.extrahero {
+    font-size: 48px;
+    font-weight: bold;
+}
+.miniextrahero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sinu {
+    background-color: #3882f6;
+    margin-top: 12px;
+    border-radius: 12px;
+    padding: 8px 24px;
+    color: #e5e7eb;
+}
+.imageheader{
+    text-align: center;
+    background-color: grey;
+    align-items: center;
+
+}
+.imageheader p{
+    align-content: center;
+}
+.subsectcontainer {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    height: 400px;
+}
+.subsectgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.subsectgrid img{
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+.subsectgridy figure{
+    font-size: 12px;
+    text-align: center;
+    padding-right: 28px;
+}
+.subsectheader{
+    text-align: center;
+    margin-top: 90px;
+}
+.quotecontainer{
+    background-color: #e5e7eb;
+    height: 300px;
+}
+.quotebody{
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.quotedesign{
+    color: #1f2937;
+    margin-bottom: 100px;
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+}
+.quotelabel{
+    font-weight:bold;
+    text-align: right;
+}
