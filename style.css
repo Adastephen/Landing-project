@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.first{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .headercontainer {
     background-color: #1f2937;
     color: #f9faf8;
